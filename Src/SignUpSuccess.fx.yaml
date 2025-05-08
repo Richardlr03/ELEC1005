@@ -1,0 +1,271 @@
+SignUpSuccess As screen:
+    Height: =812
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    Width: =375
+
+    "'Home Indicator_22' As groupContainer.manualLayoutContainer":
+        FillPortions: =0
+        Height: =34
+        LayoutMode: ="manual"
+        Width: =375
+        Y: =778
+        ZIndex: =1
+
+        "'Home Indicator_23' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(0, 0, 0, 1)
+            FocusedBorderThickness: =4
+            Height: =5
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =134
+            X: =121
+            Y: =21
+            ZIndex: =2
+
+    "'CommUnity Hub_1' As label":
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =36
+        LineHeight: =1.5
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =18
+        Text: ="CommUnity Hub"
+        Width: =192
+        X: =93
+        Y: =108
+        ZIndex: =3
+
+    "'Status Bar_10' As groupContainer.manualLayoutContainer":
+        FillPortions: =0
+        Height: =44
+        LayoutMode: ="manual"
+        Width: =375
+        ZIndex: =4
+
+        "'Right Side_12' As groupContainer.manualLayoutContainer":
+            FillPortions: =0
+            Height: =11.336018562316895
+            LayoutMode: ="manual"
+            Width: =66.661376953125
+            X: =293.6666259765625
+            Y: =17.3306884765625
+            ZIndex: =5
+
+            Battery_12 As groupContainer.manualLayoutContainer:
+                FillPortions: =0
+                Height: =11.333333015441895
+                LayoutMode: ="manual"
+                Width: =24.32803726196289
+                X: =42.3333740234375
+                Y: =0.002685546875
+                ZIndex: =6
+
+                Rectangle_24 As image:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =11.333333015441895
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =image71219
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =22
+                    ZIndex: =7
+
+                "'Combined Shape_12' As image":
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =4
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =image71220
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =1.328037977218628
+                    X: =23
+                    Y: =3.66668701171875
+                    ZIndex: =8
+
+                Rectangle_25 As image:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =7.333333492279053
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =image71221
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =18
+                    X: =2
+                    Y: =2
+                    ZIndex: =9
+
+            Wifi_12 As rectangle:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledFill: =RGBA(166, 166, 166, 1)
+                Fill: =RGBA(128, 128, 128, 1)
+                FocusedBorderThickness: =4
+                Height: =10.965571403503418
+                HoverFill: =RGBA(0, 120, 212, 1)
+                PressedFill: =RGBA(0, 120, 212, 1)
+                Width: =15.27237606048584
+                X: =22.027099609375
+                ZIndex: =10
+
+            "'Mobile Signal_12' As rectangle":
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledFill: =RGBA(166, 166, 166, 1)
+                Fill: =RGBA(128, 128, 128, 1)
+                FocusedBorderThickness: =4
+                Height: =10.666666984558105
+                HoverFill: =RGBA(0, 120, 212, 1)
+                PressedFill: =RGBA(0, 120, 212, 1)
+                Width: =17
+                Y: =0.3359375
+                ZIndex: =11
+
+        "'Left Side_12' As groupContainer.manualLayoutContainer":
+            FillPortions: =0
+            Height: =21
+            LayoutMode: ="manual"
+            Width: =54
+            X: =21
+            Y: =12
+            ZIndex: =12
+
+            Time_12 As groupContainer.manualLayoutContainer:
+                FillPortions: =0
+                Height: =21
+                LayoutMode: ="manual"
+                Width: =54
+                ZIndex: =13
+
+                "'9:41_12' As image":
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =11.0888671875
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =image71235
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =28.42616844177246
+                    X: =12.4534912109375
+                    Y: =5.16748046875
+                    ZIndex: =14
+
+    Button_32 As groupContainer.manualLayoutContainer:
+        FillPortions: =0
+        Height: =40
+        LayoutMode: ="manual"
+        Width: =327
+        X: =24
+        Y: =366
+        ZIndex: =15
+
+        Continue_1 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =20
+            LineHeight: =1.4
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =10.5
+            Text: ="Continue"
+            Width: =65
+            X: =133
+            Y: =10
+            ZIndex: =16
+
+    Copy_1 As groupContainer.manualLayoutContainer:
+        FillPortions: =0
+        Height: =24
+        LayoutMode: ="manual"
+        Width: =257
+        X: =115
+        Y: =233
+        ZIndex: =17
+
+    "'You have signed up successfully!' As label":
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =30
+        LineHeight: =1.5
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =15
+        Text: ="You have signed up successfully!"
+        VerticalAlign: =VerticalAlign.Top
+        Width: =325
+        X: =27
+        Y: =245
+        ZIndex: =18
+
+    "'Check your email for the verification link to activate your account.' As label":
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(130, 130, 130, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Height: =36
+        LineHeight: =1.5
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =9
+        Text: ="Check your email for the verification link to activate your account."
+        VerticalAlign: =VerticalAlign.Top
+        Width: =331
+        X: =27
+        Y: =305
+        ZIndex: =19
+

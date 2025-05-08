@@ -1,0 +1,1029 @@
+Emergency1 As screen:
+    Height: =812
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    Width: =375
+
+    Header_7 As groupContainer.manualLayoutContainer:
+        FillPortions: =0
+        Height: =42
+        LayoutMode: ="manual"
+        Width: =375
+        Y: =44
+        ZIndex: =1
+
+        "'Icon/Chevron_Left_5' As groupContainer.manualLayoutContainer":
+            FillPortions: =0
+            Height: =24
+            LayoutMode: ="manual"
+            Width: =24
+            X: =16
+            Y: =9
+            ZIndex: =2
+
+            chevron_left_thin_5 As image:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Height: =16.858579635620117
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Image: =image181974
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                Width: =9.494974136352539
+                X: =6.9356689453125
+                Y: =3.5712890625
+                ZIndex: =3
+
+        "'Emergency Contacts' As label":
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            FontWeight: =FontWeight.Semibold
+            Height: =24
+            LineHeight: =1.4
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =12.75
+            Text: ="Emergency Contacts"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =171
+            X: =105
+            Y: =9
+            ZIndex: =4
+
+    "'🚨 Emergency Services' As label":
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =24
+        LineHeight: =1.4
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =12.75
+        Text: ="🚨 Emergency Services"
+        VerticalAlign: =VerticalAlign.Top
+        Width: =188
+        X: =102
+        Y: =142
+        ZIndex: =5
+
+    "'🛡 Security & Safety' As label":
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =24
+        LineHeight: =1.4
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =12.75
+        Text: ="🛡 Security & Safety"
+        VerticalAlign: =VerticalAlign.Top
+        Width: =161
+        X: =109
+        Y: =274
+        ZIndex: =6
+
+    "'🔧 Maintenance & Utility Services' As label":
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =24
+        LineHeight: =1.4
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =12.75
+        Text: ="🔧 Maintenance & Utility Services"
+        VerticalAlign: =VerticalAlign.Top
+        Width: =266
+        X: =56
+        Y: =402
+        ZIndex: =7
+
+    "'Status Bar_9' As groupContainer.manualLayoutContainer":
+        FillPortions: =0
+        Height: =44
+        LayoutMode: ="manual"
+        Width: =375
+        ZIndex: =8
+
+        "'Right Side_11' As groupContainer.manualLayoutContainer":
+            FillPortions: =0
+            Height: =11.336262702941895
+            LayoutMode: ="manual"
+            Width: =66.66152954101562
+            X: =293.66650390625
+            Y: =17.3310546875
+            ZIndex: =9
+
+            Battery_11 As groupContainer.manualLayoutContainer:
+                FillPortions: =0
+                Height: =11.333333015441895
+                LayoutMode: ="manual"
+                Width: =24.32803726196289
+                X: =42.33349609375
+                Y: =0.0029296875
+                ZIndex: =10
+
+                Rectangle_22 As image:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =11.333333015441895
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =image181984
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =22
+                    ZIndex: =11
+
+                "'Combined Shape_11' As image":
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =4
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =image181985
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =1.328037977218628
+                    X: =23
+                    Y: =3.6669921875
+                    ZIndex: =12
+
+                Rectangle_23 As image:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =7.333333492279053
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =image181986
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =18
+                    X: =2
+                    Y: =1.9999998807907104
+                    ZIndex: =13
+
+            Wifi_11 As rectangle:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledFill: =RGBA(166, 166, 166, 1)
+                Fill: =RGBA(128, 128, 128, 1)
+                FocusedBorderThickness: =4
+                Height: =10.965227127075195
+                HoverFill: =RGBA(0, 120, 212, 1)
+                PressedFill: =RGBA(0, 120, 212, 1)
+                Width: =15.27237606048584
+                X: =22.027099609375
+                ZIndex: =14
+
+            "'Mobile Signal_11' As rectangle":
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledFill: =RGBA(166, 166, 166, 1)
+                Fill: =RGBA(128, 128, 128, 1)
+                FocusedBorderThickness: =4
+                Height: =10.6669921875
+                HoverFill: =RGBA(0, 120, 212, 1)
+                PressedFill: =RGBA(0, 120, 212, 1)
+                Width: =17
+                Y: =0.3359375
+                ZIndex: =15
+
+        "'Left Side_11' As groupContainer.manualLayoutContainer":
+            FillPortions: =0
+            Height: =21
+            LayoutMode: ="manual"
+            Width: =54
+            X: =21
+            Y: =12
+            ZIndex: =16
+
+            Time_11 As groupContainer.manualLayoutContainer:
+                FillPortions: =0
+                Height: =21
+                LayoutMode: ="manual"
+                Width: =54
+                ZIndex: =17
+
+                "'9:41_11' As image":
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =11.0888671875
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =image1811000
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =28.42616844177246
+                    X: =12.45361328125
+                    Y: =5.16796875
+                    ZIndex: =18
+
+    "'Tab Bar_8' As groupContainer.manualLayoutContainer":
+        FillPortions: =0
+        Height: =78
+        LayoutMode: ="manual"
+        Width: =375
+        Y: =734
+        ZIndex: =19
+
+        Tabs_7 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =44
+            LayoutMode: ="manual"
+            Width: =375
+            ZIndex: =20
+
+            "'Tab Bar Item_35' As groupContainer.manualLayoutContainer":
+                FillPortions: =0
+                Height: =44
+                LayoutMode: ="manual"
+                Width: =76
+                ZIndex: =21
+
+                "'home (2) 1' As image":
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =24
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =image268878
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =24
+                    X: =26
+                    Y: =12
+                    ZIndex: =22
+
+            "'Tab Bar Item_36' As groupContainer.manualLayoutContainer":
+                FillPortions: =0
+                Height: =44
+                LayoutMode: ="manual"
+                Width: =76
+                X: =75
+                ZIndex: =23
+
+                "'chat (1) 1_5' As image":
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =24
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =image270949
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =24
+                    X: =26
+                    Y: =12
+                    ZIndex: =24
+
+            "'Tab Bar Item_37' As groupContainer.manualLayoutContainer":
+                FillPortions: =0
+                Height: =44
+                LayoutMode: ="manual"
+                Width: =76
+                X: =150
+                ZIndex: =25
+
+                "'iconmonstr-shopping-cart-2 1_2' As groupContainer.manualLayoutContainer":
+                    FillPortions: =0
+                    Height: =24
+                    LayoutMode: ="manual"
+                    Width: =24
+                    X: =26
+                    Y: =12
+                    ZIndex: =26
+
+                    "'8675180_ic_fluent_people_community_regular_icon_7' As image":
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledFill: =RGBA(0, 0, 0, 0)
+                        FocusedBorderThickness: =4
+                        Height: =24
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        Image: =image267719
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Width: =24
+                        ZIndex: =27
+
+            "'Tab Bar Item_38' As groupContainer.manualLayoutContainer":
+                FillPortions: =0
+                Height: =44
+                LayoutMode: ="manual"
+                Width: =76
+                X: =225
+                ZIndex: =28
+
+                "'notification 1_2' As image":
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =24
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =image273988
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =24
+                    X: =26
+                    Y: =12
+                    ZIndex: =29
+
+            "'Tab Bar Item_39' As groupContainer.manualLayoutContainer":
+                FillPortions: =0
+                Height: =44
+                LayoutMode: ="manual"
+                Width: =76
+                X: =300
+                ZIndex: =30
+
+                "'Icon/Person_5' As rectangle":
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    Fill: =RGBA(128, 128, 128, 1)
+                    FocusedBorderThickness: =4
+                    Height: =24
+                    HoverFill: =RGBA(0, 120, 212, 1)
+                    PressedFill: =RGBA(0, 120, 212, 1)
+                    Width: =24
+                    X: =26
+                    Y: =12
+                    ZIndex: =31
+
+        "'Home Indicator_20' As groupContainer.manualLayoutContainer":
+            FillPortions: =0
+            Height: =34
+            LayoutMode: ="manual"
+            Width: =375
+            Y: =44
+            ZIndex: =32
+
+            "'Home Indicator_21' As rectangle":
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                DisabledFill: =RGBA(166, 166, 166, 1)
+                Fill: =RGBA(0, 0, 0, 1)
+                FocusedBorderThickness: =4
+                Height: =5
+                HoverFill: =RGBA(0, 120, 212, 1)
+                PressedFill: =RGBA(0, 120, 212, 1)
+                Width: =134
+                X: =121
+                Y: =21
+                ZIndex: =33
+
+    "'\"Need help? Here’s a quick list of essential emergency contacts for our community. Click to contact.' As label":
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(130, 130, 130, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        LineHeight: =1.5
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =9
+        Text: =""Need help? Here’s a quick list of essential emergency contacts for our community. Click to contact."
+        VerticalAlign: =VerticalAlign.Top
+        Width: =341
+        X: =18
+        Y: =98
+        ZIndex: =34
+
+    Button_17 As groupContainer.manualLayoutContainer:
+        FillPortions: =0
+        Height: =28
+        LayoutMode: ="manual"
+        Width: =168
+        X: =194
+        Y: =177
+        ZIndex: =35
+
+        Label_3 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =14
+            LayoutMode: ="manual"
+            Width: =106
+            X: =30
+            Y: =7
+            ZIndex: =36
+
+            "'🚑 Medical Assistance' As label":
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Height: =14
+                LineHeight: =1.4
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =7.5
+                Text: ="🚑 Medical Assistance"
+                Width: =110
+                ZIndex: =37
+
+    Button_18 As groupContainer.manualLayoutContainer:
+        FillPortions: =0
+        Height: =28
+        LayoutMode: ="manual"
+        Width: =168
+        X: =16
+        Y: =177
+        ZIndex: =38
+
+        Label_4 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =14
+            LayoutMode: ="manual"
+            Width: =70
+            X: =48
+            Y: =7
+            ZIndex: =39
+
+            "'🚔 Local Police' As label":
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Height: =14
+                LineHeight: =1.4
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =7.5
+                Text: ="🚔 Local Police"
+                Width: =74
+                ZIndex: =40
+
+    Button_19 As groupContainer.manualLayoutContainer:
+        FillPortions: =0
+        Height: =28
+        LayoutMode: ="manual"
+        Width: =168
+        X: =194
+        Y: =215
+        ZIndex: =41
+
+        Label_5 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =14
+            LayoutMode: ="manual"
+            Width: =0
+            X: =83
+            Y: =7
+            ZIndex: =42
+
+        "'🧪 Poison Control' As label":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =14
+            LineHeight: =1.4
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =7.5
+            Text: ="🧪 Poison Control"
+            Width: =87
+            X: =40
+            Y: =7
+            ZIndex: =43
+
+    Button_20 As groupContainer.manualLayoutContainer:
+        FillPortions: =0
+        Height: =28
+        LayoutMode: ="manual"
+        Width: =168
+        X: =194
+        Y: =309
+        ZIndex: =44
+
+        Label_6 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =14
+            LayoutMode: ="manual"
+            Width: =147
+            X: =9.5
+            Y: =7
+            ZIndex: =45
+
+            "'🔒 Access Control / Gatehouse' As label":
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Height: =14
+                LineHeight: =1.4
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =7.5
+                Text: ="🔒 Access Control / Gatehouse"
+                Width: =151
+                ZIndex: =46
+
+    Button_21 As groupContainer.manualLayoutContainer:
+        FillPortions: =0
+        Height: =28
+        LayoutMode: ="manual"
+        Width: =168
+        X: =16
+        Y: =309
+        ZIndex: =47
+
+        Label_7 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =14
+            LayoutMode: ="manual"
+            Width: =152
+            X: =7
+            Y: =7
+            ZIndex: =48
+
+            "'🚨 Security Office / Guardhouse' As label":
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Height: =14
+                LineHeight: =1.4
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =7.5
+                Text: ="🚨 Security Office / Guardhouse"
+                Width: =156
+                ZIndex: =49
+
+    Button_22 As groupContainer.manualLayoutContainer:
+        FillPortions: =0
+        Height: =28
+        LayoutMode: ="manual"
+        Width: =168
+        X: =110
+        Y: =348
+        ZIndex: =50
+
+        Label_8 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =14
+            LayoutMode: ="manual"
+            Width: =0
+            X: =83
+            Y: =7
+            ZIndex: =51
+
+        "'🚗 Parking & Towing Services' As label":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =14
+            LineHeight: =1.4
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =7.5
+            Text: ="🚗 Parking & Towing Services"
+            Width: =144
+            X: =14
+            Y: =7
+            ZIndex: =52
+
+    "'🏥 Health & Welbeing' As label":
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =24
+        LineHeight: =1.4
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =12.75
+        Text: ="🏥 Health & Welbeing"
+        VerticalAlign: =VerticalAlign.Top
+        Width: =170
+        X: =104
+        Y: =560
+        ZIndex: =53
+
+    Button_23 As groupContainer.manualLayoutContainer:
+        FillPortions: =0
+        Height: =28
+        LayoutMode: ="manual"
+        Width: =168
+        X: =194
+        Y: =595
+        ZIndex: =54
+
+        Label_9 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =14
+            LayoutMode: ="manual"
+            Width: =89
+            X: =38.5
+            Y: =7
+            ZIndex: =55
+
+            "'💊 Local Pharmacy' As label":
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Height: =14
+                LineHeight: =1.4
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =7.5
+                Text: ="💊 Local Pharmacy"
+                Width: =93
+                ZIndex: =56
+
+    Button_24 As groupContainer.manualLayoutContainer:
+        FillPortions: =0
+        Height: =28
+        LayoutMode: ="manual"
+        Width: =168
+        X: =16
+        Y: =595
+        ZIndex: =57
+
+        Label_10 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =14
+            LayoutMode: ="manual"
+            Width: =160
+            X: =3
+            Y: =7
+            ZIndex: =58
+
+            "'🏥 Nearest Hospital / Urgent Care' As label":
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Height: =14
+                LineHeight: =1.4
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =7.5
+                Text: ="🏥 Nearest Hospital / Urgent Care"
+                Width: =164
+                ZIndex: =59
+
+    Button_25 As groupContainer.manualLayoutContainer:
+        FillPortions: =0
+        Height: =28
+        LayoutMode: ="manual"
+        Width: =188
+        X: =95
+        Y: =634
+        ZIndex: =60
+
+        Label_11 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =14
+            LayoutMode: ="manual"
+            Width: =0
+            X: =93
+            Y: =7
+            ZIndex: =61
+
+        "'🐾 Animal Control / Pet Emergency' As label":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =14
+            LineHeight: =1.4
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =7.5
+            Text: ="🐾 Animal Control / Pet Emergency"
+            Width: =169
+            X: =14
+            Y: =7
+            ZIndex: =62
+
+    Button_26 As groupContainer.manualLayoutContainer:
+        FillPortions: =0
+        Height: =28
+        LayoutMode: ="manual"
+        Width: =168
+        X: =194
+        Y: =432
+        ZIndex: =63
+
+        Label_12 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =14
+            LayoutMode: ="manual"
+            Width: =103
+            X: =31.5
+            Y: =7
+            ZIndex: =64
+
+            "'💡 Electricity Provider' As label":
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Height: =14
+                LineHeight: =1.4
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =7.5
+                Text: ="💡 Electricity Provider"
+                Width: =107
+                ZIndex: =65
+
+    Button_27 As groupContainer.manualLayoutContainer:
+        FillPortions: =0
+        Height: =28
+        LayoutMode: ="manual"
+        Width: =168
+        X: =194
+        Y: =469
+        ZIndex: =66
+
+        Label_13 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =14
+            LayoutMode: ="manual"
+            Width: =133
+            X: =16.5
+            Y: =7
+            ZIndex: =67
+
+            "'🌐 Internet & Cable Provider' As label":
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Height: =14
+                LineHeight: =1.4
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =7.5
+                Text: ="🌐 Internet & Cable Provider"
+                Width: =137
+                ZIndex: =68
+
+    Button_28 As groupContainer.manualLayoutContainer:
+        FillPortions: =0
+        Height: =28
+        LayoutMode: ="manual"
+        Width: =211
+        X: =84
+        Y: =506
+        ZIndex: =69
+
+        Label_14 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =14
+            LayoutMode: ="manual"
+            Width: =192
+            X: =9
+            Y: =7
+            ZIndex: =70
+
+            "'🔥 Gas Company (Leaks & Emergencies)' As label":
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Height: =14
+                LineHeight: =1.4
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =7.5
+                Text: ="🔥 Gas Company (Leaks & Emergencies)"
+                Width: =196
+                ZIndex: =71
+
+    Button_29 As groupContainer.manualLayoutContainer:
+        FillPortions: =0
+        Height: =28
+        LayoutMode: ="manual"
+        Width: =168
+        X: =16
+        Y: =432
+        ZIndex: =72
+
+        Label_15 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =14
+            LayoutMode: ="manual"
+            Width: =162
+            X: =2
+            Y: =7
+            ZIndex: =73
+
+            "'🏠 General Maintenance & Repairs' As label":
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Height: =14
+                LineHeight: =1.4
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =7.5
+                Text: ="🏠 General Maintenance & Repairs"
+                Width: =166
+                ZIndex: =74
+
+    Button_30 As groupContainer.manualLayoutContainer:
+        FillPortions: =0
+        Height: =28
+        LayoutMode: ="manual"
+        Width: =168
+        X: =16
+        Y: =469
+        ZIndex: =75
+
+        Label_16 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =14
+            LayoutMode: ="manual"
+            Width: =0
+            X: =83
+            Y: =7
+            ZIndex: =76
+
+        "'🚰 Water & Sewer Services' As label":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =14
+            LineHeight: =1.4
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =7.5
+            Text: ="🚰 Water & Sewer Services"
+            Width: =131
+            X: =14
+            Y: =7
+            ZIndex: =77
+
+    Button_31 As groupContainer.manualLayoutContainer:
+        FillPortions: =0
+        Height: =28
+        LayoutMode: ="manual"
+        Width: =168
+        X: =16
+        Y: =215
+        ZIndex: =78
+
+        Label_17 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =14
+            LayoutMode: ="manual"
+            Width: =91
+            X: =37.5
+            Y: =7
+            ZIndex: =79
+
+            "'🔥 Fire Department' As label":
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Height: =14
+                LineHeight: =1.4
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =7.5
+                Text: ="🔥 Fire Department"
+                Width: =95
+                ZIndex: =80
+

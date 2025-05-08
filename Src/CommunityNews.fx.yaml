@@ -1,0 +1,702 @@
+CommunityNews As screen:
+    Height: =812
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    Width: =375
+
+    Header_15 As groupContainer.manualLayoutContainer:
+        FillPortions: =0
+        Height: =42
+        LayoutMode: ="manual"
+        Width: =375
+        Y: =44
+        ZIndex: =1
+
+        "'Icon/Chevron_Left_16' As groupContainer.manualLayoutContainer":
+            FillPortions: =0
+            Height: =24
+            LayoutMode: ="manual"
+            Width: =24
+            X: =16
+            Y: =9
+            ZIndex: =2
+
+            chevron_left_thin_16 As image:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Height: =16.858579635620117
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Image: =image16467
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                Width: =9.494974136352539
+                X: =6.935546875
+                Y: =3.5712890625
+                ZIndex: =3
+
+        "'🏡 What’s Happening in Our Community?' As label":
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            FontWeight: =FontWeight.Semibold
+            Height: =21
+            LineHeight: =1.4
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =11.25
+            Text: ="🏡 What’s Happening in Our Community?"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =288
+            X: =46
+            Y: =9
+            ZIndex: =4
+
+    "'Status Bar_28' As groupContainer.manualLayoutContainer":
+        FillPortions: =0
+        Height: =44
+        LayoutMode: ="manual"
+        Width: =375
+        ZIndex: =5
+
+        "'Right Side_30' As groupContainer.manualLayoutContainer":
+            FillPortions: =0
+            Height: =11.336262702941895
+            LayoutMode: ="manual"
+            Width: =66.66152954101562
+            X: =293.66650390625
+            Y: =17.3310546875
+            ZIndex: =6
+
+            Battery_30 As groupContainer.manualLayoutContainer:
+                FillPortions: =0
+                Height: =11.333333015441895
+                LayoutMode: ="manual"
+                Width: =24.32803726196289
+                X: =42.33349609375
+                Y: =0.0029296875
+                ZIndex: =7
+
+                Rectangle_60 As image:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =11.333333015441895
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =image16477
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =22
+                    ZIndex: =8
+
+                "'Combined Shape_30' As image":
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =4
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =image16478
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =1.328037977218628
+                    X: =23
+                    Y: =3.6669921875
+                    ZIndex: =9
+
+                Rectangle_61 As image:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =7.333333492279053
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =image16479
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =18
+                    X: =2
+                    Y: =1.9999998807907104
+                    ZIndex: =10
+
+            Wifi_30 As rectangle:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledFill: =RGBA(166, 166, 166, 1)
+                Fill: =RGBA(128, 128, 128, 1)
+                FocusedBorderThickness: =4
+                Height: =10.965227127075195
+                HoverFill: =RGBA(0, 120, 212, 1)
+                PressedFill: =RGBA(0, 120, 212, 1)
+                Width: =15.27237606048584
+                X: =22.027099609375
+                ZIndex: =11
+
+            "'Mobile Signal_30' As rectangle":
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledFill: =RGBA(166, 166, 166, 1)
+                Fill: =RGBA(128, 128, 128, 1)
+                FocusedBorderThickness: =4
+                Height: =10.6669921875
+                HoverFill: =RGBA(0, 120, 212, 1)
+                PressedFill: =RGBA(0, 120, 212, 1)
+                Width: =17
+                Y: =0.3359375
+                ZIndex: =12
+
+        "'Left Side_30' As groupContainer.manualLayoutContainer":
+            FillPortions: =0
+            Height: =21
+            LayoutMode: ="manual"
+            Width: =54
+            X: =21
+            Y: =12
+            ZIndex: =13
+
+            Time_30 As groupContainer.manualLayoutContainer:
+                FillPortions: =0
+                Height: =21
+                LayoutMode: ="manual"
+                Width: =54
+                ZIndex: =14
+
+                "'9:41_30' As image":
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =11.0888671875
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =image16493
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =28.42616844177246
+                    X: =12.45361328125
+                    Y: =5.16796875
+                    ZIndex: =15
+
+    "'Tab Bar_21' As groupContainer.manualLayoutContainer":
+        FillPortions: =0
+        Height: =78
+        LayoutMode: ="manual"
+        Width: =375
+        Y: =734
+        ZIndex: =16
+
+        Tabs_20 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =44
+            LayoutMode: ="manual"
+            Width: =375
+            ZIndex: =17
+
+            "'Tab Bar Item_100' As groupContainer.manualLayoutContainer":
+                FillPortions: =0
+                Height: =44
+                LayoutMode: ="manual"
+                Width: =76
+                ZIndex: =18
+
+                "'home (2) 1_7' As image":
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =24
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =image268864
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =24
+                    X: =26
+                    Y: =12
+                    ZIndex: =19
+
+            "'Tab Bar Item_101' As groupContainer.manualLayoutContainer":
+                FillPortions: =0
+                Height: =44
+                LayoutMode: ="manual"
+                Width: =76
+                X: =75
+                ZIndex: =20
+
+                "'chat (1) 1_13' As image":
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =24
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =image270935
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =24
+                    X: =26
+                    Y: =12
+                    ZIndex: =21
+
+            "'Tab Bar Item_102' As groupContainer.manualLayoutContainer":
+                FillPortions: =0
+                Height: =44
+                LayoutMode: ="manual"
+                Width: =76
+                X: =150
+                ZIndex: =22
+
+                "'iconmonstr-shopping-cart-2 1_9' As groupContainer.manualLayoutContainer":
+                    FillPortions: =0
+                    Height: =24
+                    LayoutMode: ="manual"
+                    Width: =24
+                    X: =26
+                    Y: =12
+                    ZIndex: =23
+
+                    "'8675180_ic_fluent_people_community_regular_icon_20' As image":
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledFill: =RGBA(0, 0, 0, 0)
+                        FocusedBorderThickness: =4
+                        Height: =24
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        Image: =image267692
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Width: =24
+                        ZIndex: =24
+
+            "'Tab Bar Item_103' As groupContainer.manualLayoutContainer":
+                FillPortions: =0
+                Height: =44
+                LayoutMode: ="manual"
+                Width: =76
+                X: =225
+                ZIndex: =25
+
+                "'notification 1_14' As image":
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =24
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =image273974
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =24
+                    X: =26
+                    Y: =12
+                    ZIndex: =26
+
+            "'Tab Bar Item_104' As groupContainer.manualLayoutContainer":
+                FillPortions: =0
+                Height: =44
+                LayoutMode: ="manual"
+                Width: =76
+                X: =300
+                ZIndex: =27
+
+                "'Icon/Person_18' As rectangle":
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    Fill: =RGBA(128, 128, 128, 1)
+                    FocusedBorderThickness: =4
+                    Height: =24
+                    HoverFill: =RGBA(0, 120, 212, 1)
+                    PressedFill: =RGBA(0, 120, 212, 1)
+                    Width: =24
+                    X: =26
+                    Y: =12
+                    ZIndex: =28
+
+        "'Home Indicator_58' As groupContainer.manualLayoutContainer":
+            FillPortions: =0
+            Height: =34
+            LayoutMode: ="manual"
+            Width: =375
+            Y: =44
+            ZIndex: =29
+
+            "'Home Indicator_59' As rectangle":
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                DisabledFill: =RGBA(166, 166, 166, 1)
+                Fill: =RGBA(0, 0, 0, 1)
+                FocusedBorderThickness: =4
+                Height: =5
+                HoverFill: =RGBA(0, 120, 212, 1)
+                PressedFill: =RGBA(0, 120, 212, 1)
+                Width: =134
+                X: =121
+                Y: =21
+                ZIndex: =30
+
+    News As groupContainer.manualLayoutContainer:
+        FillPortions: =0
+        Height: =638
+        LayoutMode: ="manual"
+        Width: =410
+        Y: =94
+        ZIndex: =31
+
+        News_1 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =140
+            LayoutMode: ="manual"
+            Width: =374
+            ZIndex: =32
+
+            Contents As groupContainer.manualLayoutContainer:
+                FillPortions: =0
+                Height: =140
+                LayoutMode: ="manual"
+                Width: =234
+                X: =20
+                ZIndex: =33
+
+                "'13/4/2025 📢 New Playground Installed! Great news for families! A brand-new playground has been installed at the community park, featuring swings, slides, and a shaded seating area. Bring your kids and enjoy the upgraded space!' As label":
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    Color: =RGBA(24.990002, 31.4925, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Height: =140
+                    LineHeight: =1.4285715
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =10.5
+                    Text: |-
+                        ="13/4/2025
+                        📢 New Playground Installed!
+                        Great news for families! A brand-new playground has been installed at the community park, featuring swings, slides, and a shaded seating area. Bring your kids and enjoy the upgraded space!"
+                    VerticalAlign: =VerticalAlign.Top
+                    Width: =238
+                    ZIndex: =34
+
+            playground As image:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Image: =image16498
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                X: =274
+                Y: =20
+                ZIndex: =35
+
+        News_2 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =141
+            LayoutMode: ="manual"
+            Width: =394
+            Y: =155
+            ZIndex: =36
+
+            News_3 As groupContainer.manualLayoutContainer:
+                FillPortions: =0
+                Height: =141
+                LayoutMode: ="manual"
+                Width: =374
+                X: =20
+                ZIndex: =37
+
+                bike As image:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =image164102
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    X: =20
+                    Y: =20.5
+                    ZIndex: =38
+
+                Contents_1 As groupContainer.manualLayoutContainer:
+                    FillPortions: =0
+                    Height: =141
+                    LayoutMode: ="manual"
+                    Width: =234
+                    X: =140
+                    ZIndex: =39
+
+                    "'3/4/2025 🚴 Bike Lanes Coming Soon Exciting news for cyclists! The city has approved plans to add dedicated bike lanes near our community. Construction will begin in May and is expected to be completed by the end of the year.' As label":
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        Color: =RGBA(24.990002, 31.4925, 51, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        FocusedBorderThickness: =4
+                        Height: =141
+                        LineHeight: =1.4285715
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Size: =10.5
+                        Text: |-
+                            ="3/4/2025
+                            🚴 Bike Lanes Coming Soon
+                            Exciting news for cyclists! The city has approved plans to add dedicated bike lanes near our community. Construction will begin in May and is expected to be completed by the end of the year."
+                        VerticalAlign: =VerticalAlign.Top
+                        Width: =238
+                        ZIndex: =40
+
+        News_4 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =141
+            LayoutMode: ="manual"
+            Width: =374
+            Y: =311
+            ZIndex: =41
+
+            Contents_2 As groupContainer.manualLayoutContainer:
+                FillPortions: =0
+                Height: =141
+                LayoutMode: ="manual"
+                Width: =234
+                X: =20
+                ZIndex: =42
+
+                "'20/3/2025 🛠 Clubhouse Renovations The community clubhouse is undergoing a much-needed facelift. Improvements include new flooring, fresh paint, and upgraded furniture. The clubhouse will be closed until April 20—thank you for your patience!' As label":
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    Color: =RGBA(24.990002, 31.4925, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Height: =141
+                    LineHeight: =1.4285715
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =10.5
+                    Text: |-
+                        ="20/3/2025
+                        🛠 Clubhouse Renovations
+                        The community clubhouse is undergoing a much-needed facelift. Improvements include new flooring, fresh paint, and upgraded furniture. The clubhouse will be closed until April 20—thank you for your patience!"
+                    VerticalAlign: =VerticalAlign.Top
+                    Width: =238
+                    ZIndex: =43
+
+            clubhouse As image:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Image: =image164110
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                X: =274
+                Y: =20.5
+                ZIndex: =44
+
+        News_5 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =121
+            LayoutMode: ="manual"
+            Width: =374
+            Y: =467
+            ZIndex: =45
+
+            garden As image:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Image: =image164114
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                X: =20
+                Y: =10.5
+                ZIndex: =46
+
+            Contents_3 As groupContainer.manualLayoutContainer:
+                FillPortions: =0
+                Height: =121
+                LayoutMode: ="manual"
+                Width: =234
+                X: =140
+                ZIndex: =47
+
+                "'11/3/2025 🌱 Community Garden Expansion Our community garden is growing—literally! We’ve added new planter boxes and fruit trees. Residents interested in gardening can sign up for a plot at the clubhouse.' As label":
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    Color: =RGBA(24.990002, 31.4925, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Height: =121
+                    LineHeight: =1.4285715
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =10.5
+                    Text: |-
+                        ="11/3/2025
+                        🌱 Community Garden Expansion
+                        Our community garden is growing—literally! We’ve added new planter boxes and fruit trees. Residents interested in gardening can sign up for a plot at the clubhouse."
+                    VerticalAlign: =VerticalAlign.Top
+                    Width: =238
+                    ZIndex: =48
+
+        News_6 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =141
+            LayoutMode: ="manual"
+            Width: =374
+            Y: =603
+            ZIndex: =49
+
+            Contents_4 As groupContainer.manualLayoutContainer:
+                FillPortions: =0
+                Height: =141
+                LayoutMode: ="manual"
+                Width: =234
+                X: =20
+                ZIndex: =50
+
+                "'2/3/2025 🐾 Pet Park Rules Update To ensure a safe and enjoyable environment, all pets must now be leashed when entering and exiting the dog park. We also encourage pet owners to use the provided waste disposal stations—let’s keep our park clean!' As label":
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    Color: =RGBA(24.990002, 31.4925, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Height: =141
+                    LineHeight: =1.4285715
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =10.5
+                    Text: |-
+                        ="2/3/2025
+                        🐾 Pet Park Rules Update
+                        To ensure a safe and enjoyable environment, all pets must now be leashed when entering and exiting the dog park. We also encourage pet owners to use the provided waste disposal stations—let’s keep our park clean!"
+                    VerticalAlign: =VerticalAlign.Top
+                    Width: =238
+                    ZIndex: =51
+
+            petpark As image:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Image: =image164118
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                X: =274
+                Y: =20.5
+                ZIndex: =52
+
+        News_7 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =132
+            LayoutMode: ="manual"
+            Width: =375
+            Y: =759
+            ZIndex: =53
+
+            cctv As image:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Image: =image164122
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                X: =20.5
+                Y: =16
+                ZIndex: =54
+
+            Contents_5 As groupContainer.manualLayoutContainer:
+                FillPortions: =0
+                Height: =121
+                LayoutMode: ="manual"
+                Width: =234
+                X: =140.5
+                Y: =5.5
+                ZIndex: =55
+
+                "'20/2/2025 🚨 Extra Security for Peace of Mind! We’ve added more CCTV cameras around the entrance and parking area. Let’s keep our community safe—if you see anything unusual, give management a heads-up!' As label":
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    Color: =RGBA(24.990002, 31.4925, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Height: =121
+                    LineHeight: =1.4285715
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =10.5
+                    Text: |-
+                        ="20/2/2025
+                        🚨 Extra Security for Peace of Mind!
+                        We’ve added more CCTV cameras around the entrance and parking area. Let’s keep our community safe—if you see anything unusual, give management a heads-up!"
+                    VerticalAlign: =VerticalAlign.Top
+                    Width: =238
+                    ZIndex: =56
+
